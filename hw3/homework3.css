@@ -1,0 +1,113 @@
+body{
+background-image: url(food1.jpg);
+
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#header{
+   height: 20%;
+width: 100%;
+background-color: chocolate;
+text-align: center;
+font-size: 50px;
+border-bottom-style: solid;
+margin-bottom: 50px;
+text-transform: capitalize;
+padding: 20px;
+font-weight: bolder;
+text-shadow: 1px 2px yellow;
+}
+
+
+
+#menu{
+    text-align: center;
+    font-size: 30px;
+    
+    background-color: brown;
+    width: 470px;
+ margin: 0 auto;
+
+   color: darkgoldenrod;
+   border-style: outset;
+}
+
+#table1{
+  
+   background-color: brown;
+  margin: 0 auto;
+   text-align: center;
+   margin-top: 50px;
+   font-size: 30px;
+   color: darkgoldenrod;
+   margin-bottom: 50px;
+   
+
+  
+}
+
+ td {
+border-style: outset;
+width: 150px;
+height: 150px;
+}
+
+#chti{
+    background-image: url(chikentikka.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#bc{
+    background-image: url(butterchiken.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#vi{
+    background-image: url(vindaloo.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#chma{
+    background-image: url(chana.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#dama{
+    background-image: url(dalmakhani.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+#ko{
+    background-image: url(korma.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#form{
+    margin-top: 50px;
+margin: 0 auto;
+width: 470px;
+height: 300px;
+background-color: brown;
+border-style: outset;
+text-align: center;
+}
+
+a:hover{
+color: greenyellow;
+}
