@@ -1,0 +1,54 @@
+#box1{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    animation: box 5s infinite;
+    position: relative;
+    margin-left:400px;
+   
+}
+
+
+@keyframes box{
+    0%  { left:450px; top: 0px;}
+ 33% { left: 450px; top:450px;}
+ 66%  {left: 0px; top:450px;}
+ 100% {left: 0px; top: 0px;} 
+  
+    }
+    
+
+
+#box2{
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        animation: b2 5s infinite;
+    position: relative;
+    margin-left:550px;
+
+    transition: all 1s ease;
+      
+
+
+    }
+
+    @keyframes b2{
+        0%  { left:100px; top: 200px;}
+     33% { left: 200px; top:200px;}
+     66%  {left: 200px; top:100px;}
+     100% {left: 100px; top: 100px;} 
+        }
+
+
+#box2:hover{
+   
+border-radius: 100%;
+
+width: 1100px;
+height: 1100px;
+animation-play-state: paused;
+
+transform: translate(-450px,-450px)
+}
+        
