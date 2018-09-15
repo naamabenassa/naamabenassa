@@ -1,0 +1,81 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HW8</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="HW8.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+
+
+
+            <h1>Car company</h1>
+            <input type="text" id ="company"><P id="errorComp"></P>
+            <h1>Car type</h1>
+            <input type= "text" id="cartype"> <p id="errorCart"></p>
+            <h1>engin size</h1>
+            <input type ="number" id= "enginesize"> <p id= "errorEngin"></p>
+            <h1>seats</h1>
+            <select  id= "seat">
+                <option id="s1"  value="2">2</option>
+                <option id="s2"  value="4">4</option>
+                <option   id="s3"       value="5">5</option>
+            </select><br>
+            <h1>color</h1>
+        
+            <form>
+              <input id="red"   type="radio" name="color" value="red" >red<br>
+              <input id= "blue" type="radio" name="color" value="blue"> blue<br>
+              <input id="green" type="radio" name="color" value="green"> green<br>
+              <input id="yellow" type="radio" name="color" value="yellow"> yellow<br>
+            </form>
+        
+        
+        
+        
+        
+        
+            <button id="create" onClick="funcCar()">create</button><br><br><br>
+        
+
+
+            <div  id= "detailes">
+                <h1>Detailes of wanted car</h1><br>
+                <p>  Car company:  <span id="s4"></span></p>
+                <p>Car type:<span id="s5"></span></p>
+                <p>Ingin size:<span id="s6"></span></p>
+                <p>seats:<span id="s7"></span></p>
+                <p>color:<span id="s8"></span></p>
+        
+
+
+
+            </div>
+           
+        
+          <div  id="cars"> 
+
+                <div id="yellowCar"><img src="yellowcar.jpg"></div>
+                <div id="redCar"><img src="redcar.jpg"></div>
+                <div id="blueCar"><img src="bluecar.png"></div>
+                <div id= "greenCar"><img src="greencar.jpg"></div>
+
+          </div>
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+    <script src="HW8.js"></script>
+</body>
+</html> 
