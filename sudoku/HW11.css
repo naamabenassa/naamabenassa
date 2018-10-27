@@ -1,0 +1,267 @@
+.container-fluid{
+    background-color: rgb(189, 66, 238);
+    height: 20%;
+    width: 100%;
+    font-size: 100px;
+}
+    #head{
+        font-size: 50px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        animation: move linear 12s infinite;
+        position: relative;
+    }
+@keyframes move{
+    0%{left: 100%;}
+    100%{left: -60%;}
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(147, 206, 255);
+    padding: 120px;
+    background-image: url(xxx.png);
+   
+}
+   #div1{
+       margin: auto;
+       float: inherit;
+       border: 10px;
+       border-color: rgb(255, 255, 255);
+       border-radius: 8px;
+       border-style: solid;
+       width: 500px;
+       height: 300px;
+       background-color: rgb(189, 66, 238);
+       text-align: center;
+       padding: 40px;
+          } 
+          #div2{
+            margin: auto;
+            border: 10px;
+            border-color: rgb(255, 255, 255);
+            border-radius: 8px;
+            border-style: solid;
+            width: 500px;
+            height: 400px;
+            background-color: rgb(189, 66, 238);
+            text-align: center;
+            padding: 40px;
+               } 
+    .btn1{
+        border: 2px;
+        border-style: solid;
+        border-color:rgb(255, 255, 255);
+        color: rgb(98, 4, 134);
+        font-size: 25px;
+        font-weight: 600;
+        background-color:white;
+        margin-top: 5%;
+        border-radius: 6px;
+        width: 400px;
+        padding: 10px;
+        vertical-align: middle;
+        position: static;
+        margin-bottom: 20px;
+    }
+    .sign{
+        color:  rgb(0, 0, 100);
+        font-size: 25px;
+        font-weight: 500;
+        padding: 5px;
+    }    
+    #link0{
+        color: white;
+        padding: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        text-align: center;
+    }
+    #link0:hover{
+        color: rgb(0, 0, 100);
+        text-decoration: none;
+    }   
+    #link1{
+        color: white;
+        padding: 10px;
+        font-size: 25px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #link1:hover{
+        color: rgb(0, 0, 100);
+        text-decoration: none;
+    }
+    #link2{
+        color: rgb(0, 0, 100);
+        padding: 5px;
+        font-size: 35px;
+        font-weight: bold;
+        position: relative;
+        text-align: center;
+    }
+    #link2:hover{
+        color:white;
+        text-decoration: none;
+    }
+    .div3{
+        margin: auto;
+        border: 10px;
+        border-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        border-style: solid;
+        width: 700px;
+        height: 700px;
+        background-color: rgb(189, 66, 238);
+        padding: 30px;
+        text-align: left;
+           } 
+           .link3{
+            color: rgb(92, 0, 100);
+            padding: 10px;
+            font-size: 30px;
+            font-weight: bold;
+            position: relative;
+            text-align: center;
+            border-radius: 8px;
+            background-color: white;
+            line-height: 40px;
+        }
+        .link3:hover{
+            color:rgb(0, 0, 100);
+            text-decoration: none;
+        }
+.in{
+    padding: 6px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#create{
+    color: white;
+    padding: 10px;
+    font-size: 65px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    text-shadow: 2px 2px rgb(92, 0, 100);
+}
+#div4{
+    text-align: center;
+}
+.p{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px;
+}
+#head2{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+#buttons{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.button{
+background-color: aliceblue;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:purple;
+    float: right;
+    position: relative;
+    bottom: 80px;
+    margin:10px; 
+    border-radius: 10px;
+
+}
+
+.level{
+    text-transform: uppercase;
+    background-color: blueviolet;
+}
+
+
+
+#boardTable{
+    height:400px;
+    width: 400px;
+    border-width: 10px;
+    color: aliceblue;
+    border-color: black;
+    display: inline-table;
+    border-style: solid;
+    margin-left: 35%;
+    border-collapse: collapse;
+
+    position: relative;
+    background-color:rgb(189, 66, 238) 
+}
+
+
+
+
+#choosLevel{
+    position: absolute;
+   
+    width: 100%;
+    height: 100%;    
+    padding: 120px;
+ 
+    visibility: visible;
+    
+}
+
+#boardDiv{
+    position: relative;
+    width: 100%;
+    height: 100%;    
+    padding: 120px;
+   
+    visibility: hidden;
+}
+table {
+    margin:1em auto;
+  }
+  td {
+    height:30px;
+    width:30px;
+    border:1px solid;
+    text-align:center;
+  }
+  td:first-child {
+    border-left:solid;
+  }
+  td:nth-child(3n) {
+    border-right:solid ;
+  }
+  tr:first-child {
+    border-top:solid;
+  }
+  tr:nth-child(3n) td {
+    border-bottom:solid ;
+  }
+
+
+  #feedback{
+
+    height:100px;
+    width: 400px;
+    border-width: 10px;
+    color: aliceblue;
+    border-color: black;
+    display: inline-table;
+    border-style: solid;
+    margin-left: 35%;
+    border-collapse: collapse;
+
+    position: relative;
+    background-color:rgb(189, 66, 238) 
+
+  }
